@@ -4,6 +4,9 @@
   "description": "",
   "main": "build.js",
   "author": "",
+  "scripts": {
+    "build": "node build.js"
+  },
   "license": "MIT",
   "dependencies": {
     "handlebars": "^4.0.5",

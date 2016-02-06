@@ -24,6 +24,7 @@ function permalinks(files, metalsmith, done) {
 metalsmith = metalsmith(__dirname)
   .source('contents')
   .use(ignore([
+    'readme.md',
     '**/*.draft.md'
   ]))
   .use(markdown())

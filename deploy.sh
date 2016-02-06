@@ -14,6 +14,6 @@ npm run build && cd build
 
 git add --all .
 git commit -m "Deploying ${TRAVIS_COMMIT} to GitHub pages"
-git push origin master --force --quiet > /dev/null 2>&1
+git push origin master --quiet > /dev/null 2>&1
 
 fi

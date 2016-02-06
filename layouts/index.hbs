@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <main class="content container" role="main">
+      <div class="featured">
+        <h2>{{posts.0.title}}</h2>
+        {{{posts.0.contents}}}
+      </div>
+      <ul>
+        {{~#each posts}}
+          {{~#if @index}}
+          <li><a href="{{permalink}}">{{title}}</a>
+          {{~/if}}
+        {{~/each}}
+      </ul>
+    </main>
+  </body>
+</html>

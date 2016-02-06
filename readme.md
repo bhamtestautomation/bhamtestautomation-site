@@ -8,7 +8,7 @@ You'll need [NPM](https://www.npmjs.com/) to get started.
 $ npm install
 ```
 
-Once all your dependencies are installed, run `npm build` to generate all of the static contents to `build/`.
+Once all your dependencies are installed, run `npm run build` to generate all of the static contents to `build/`.
 
 ### Contents
 

@@ -12,6 +12,7 @@ rm -rf build/*
 # Build latest commit
 npm run build && cd build
 
+git rev-parse HEAD
 git add --all .
 git commit -m "Deploying ${TRAVIS_COMMIT} to GitHub pages"
 git push origin master --quiet > /dev/null 2>&1

@@ -4,9 +4,9 @@ if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then
 
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "travis-ci"
-
+ls ~/.ssh
 # Clone *.github.io repo to staging folder
-git clone git@github.com:bhamtestautomation/bhamtestautomation.github.io.git stage > /dev/null 2>&1
+git clone git@github.com:bhamtestautomation/bhamtestautomation.github.io.git stage
 rm -rf stage/*
 
 # Build latest commit and copy to stage

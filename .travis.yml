@@ -3,3 +3,6 @@ node_js: 'stable'
 sudo: false
 branches:
   only: master
+after_success: bash ./deploy.sh
+before_install:
+  - openssl aes-256-cbc -K $encrypted_f7c83b9e555e_key -iv $encrypted_f7c83b9e555e_iv -in deploy-key.enc -out ~/.ssh/id_rsa -d

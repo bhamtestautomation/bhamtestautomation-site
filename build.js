@@ -3,6 +3,7 @@
 var metalsmith = require('metalsmith')
   , slug = require('slug')
   , path = require('path')
+  , ignore = require('metalsmith-ignore')
   , markdown = require('metalsmith-markdown')
   , layouts = require('metalsmith-layouts');
 
@@ -18,11 +19,13 @@ function permalinks(files, metalsmith, done) {
       files[`posts/${postSlug}${extension}`] = data;
     }
   });
-
 }
 
 metalsmith = metalsmith(__dirname)
   .source('contents')
+  .use(ignore([
+    '**/*.draft.md'
+  ]))
   .use(markdown())
   .use(permalinks)
   .use(layouts({

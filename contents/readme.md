@@ -1,0 +1,1 @@
+This is the static site for [Birmingham Test Automation](https://github.com/bhamtestautomation/bhamtestautomation-site). View the [readme](https://github.com/bhamtestautomation/bhamtestautomation-site/blob/master/readme.md) for more information.

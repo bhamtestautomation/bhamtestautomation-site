@@ -7,9 +7,9 @@ Our first ever meetup will be held Tuesday, Febuary 9th at 11:45 AM, at Daxko - 
 
 Jonathan Taylor will present on Selenium
 
-*Schedule:*
-11:45-12:10 Meet and Greet
-12:10-12:40 Presentation
-12:40-1:00 Q&A
+**Schedule:**
+> 11:45-12:10 Meet and Greet
+> 12:10-12:40 Presentation
+> 12:40-1:00 Q&A
 
 *[Register](https://www.eventbrite.com/e/birmingham-al-test-automation-meetup-tickets-20906728588)* today, there is limited seating available.

@@ -30,6 +30,7 @@ h3 {
 @media (min-width: 50em) {
   .container {
     width: 50em;
+    margin: 0 auto;
   }
 }
 

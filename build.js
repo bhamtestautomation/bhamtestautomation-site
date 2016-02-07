@@ -3,9 +3,15 @@
 var metalsmith = require('metalsmith')
   , slug = require('slug')
   , path = require('path')
+  , handlebars = require('handlebars')
+  , moment = require('moment')
   , ignore = require('metalsmith-ignore')
   , markdown = require('metalsmith-markdown')
   , layouts = require('metalsmith-layouts');
+
+handlebars.registerHelper('dateFormat', function(date, format) {
+  return moment(date).format(format);
+});
 
 function permalinks(files, metalsmith, done) {
   setImmediate(done);

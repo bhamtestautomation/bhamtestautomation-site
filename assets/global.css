@@ -1,0 +1,50 @@
+@import "normalize.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  padding: 0 1em;
+}
+
+@media (min-width: 50em) {
+  .container {
+    width: 50em;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+}
+
+.title strong {
+  color: rgba(0, 0, 0, .3);
+}
+
+@media (min-width: 36em) {
+  .title {
+    font-size: 32px;
+  }
+}

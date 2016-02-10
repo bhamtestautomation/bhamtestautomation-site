@@ -1,9 +1,9 @@
 ---
-title: Bham Test Automation Meetup
+title: February Bham Test Automation Meetup
 date: 2016-02-06
 ---
 
-Our first ever meetup will be held Tuesday, Febuary 9th at 11:45 AM, at Daxko - 600 University Park Place. #500. Homewood, AL 35209 - *[View Map](https://www.google.com/maps?hl=en&q=33.458841,-86.796378&sll=33.458841,-86.796378&z=13&markers=33.458841,-86.796378)*
+Our first ever meetup will be held Tuesday, February 9th at 11:45 AM, at Daxko - 600 University Park Place. #500. Homewood, AL 35209 - *[View Map](https://www.google.com/maps?hl=en&q=33.458841,-86.796378&sll=33.458841,-86.796378&z=13&markers=33.458841,-86.796378)*
 
 Jonathan Taylor will present on Selenium
 

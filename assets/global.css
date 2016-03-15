@@ -30,6 +30,10 @@ a:hover {
   color: #8b9ca3;
 }
 
+header {
+  padding: 1em 0;
+}
+
 .container {
   width: 100%;
   padding: 0 1em;
@@ -46,10 +50,16 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   font-size: 18px;
+  margin-bottom: 0;
 }
 
 .title strong {
   color: rgba(0, 0, 0, .3);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (min-width: 36em) {

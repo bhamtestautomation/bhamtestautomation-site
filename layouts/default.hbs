@@ -8,11 +8,16 @@
     <title>{{title}}</title>
   </head>
   <body>
-    <main class="content container" role="main">
+    <header>
+      <img class="logo" src="/images/logo.png">
       <h1 class="title">Birmingham<strong>Test</strong>Automation</h1>
-      <h2>{{title}}</h2>
-      <h3>{{dateFormat date "MMM d, YYYY"}}</h3>
-      {{{contents}}}
+    </header>
+    <main class="content container" role="main">
+      <article>
+        <h2>{{title}}</h2>
+        <h3>{{dateFormat date "MMM d, YYYY"}}</h3>
+        {{{contents}}}
+      </article>
     </main>
   </body>
 </html>

@@ -10,6 +10,8 @@ $ npm install
 
 Once all your dependencies are installed, run `npm run build` to generate all of the static contents to `build/`.
 
+You can also run `npm run preview` to start the site on a local http server to preview the contents.
+
 ### Contents
 
 All of the site's structure is stored under `contents/` as [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Posts can be created under `contents/posts` and any other folder/file contents will be created as static pages.

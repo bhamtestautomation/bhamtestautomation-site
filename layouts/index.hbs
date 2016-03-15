@@ -8,12 +8,15 @@
     <title>{{title}}</title>
   </head>
   <body>
-    <main class="content container" role="main">
+    <header>
+      <img class="logo" src="/images/logo.png">
       <h1 class="title">Birmingham<strong>Test</strong>Automation</h1>
-      <div class="featured">
+    </header>
+    <main class="content container" role="main">
+      <article class="featured">
         <h2>{{posts.0.title}}</h2>
         {{{posts.0.contents}}}
-      </div>
+      </article>
       <ul>
         {{~#each posts}}
           {{~#if @index}}

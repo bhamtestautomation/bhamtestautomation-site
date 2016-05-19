@@ -14,4 +14,4 @@ Frederick Clay from Ebsco will present on 'Test Automation: Lessons Learned From
 
 *[Register](https://www.eventbrite.com/e/june-bham-test-automation-meetup-tickets-25575682555)* today!
 
-Our Sponsor this meeting *[Tasktop](https://www.tasktop.com/) will be providing lunch.
+Our Sponsor this meeting *[Tasktop](https://www.tasktop.com/)* will be providing lunch.

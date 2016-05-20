@@ -1,5 +1,5 @@
 ---
-title: May Bham Test Automation Meetup
+title: June Bham Test Automation Meetup
 date: 2016-05-19
 ---
 

@@ -12,6 +12,6 @@ Our July meetup will be held Tuesday, July 26th at 11:45 AM, at Daxko - 600 Univ
 * 12:10-12:40 Presentation
 * 12:40-1:00 Q&A
 
-*[Register](https://www.eventbrite.com/e/june-bham-test-automation-meetup-tickets-25575682555)* today!
+*[Register](https://www.eventbrite.com/e/july-bham-test-automation-meetup-tickets-26057308110)* today!
 
 Lunch can be purchased.
